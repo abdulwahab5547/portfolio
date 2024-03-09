@@ -58,13 +58,31 @@
 
 
 
-@media (max-width: 768px) {
-    .heading-h1-style {
-        font-size: 35px;
-    }
-    .heading-style{
-        font-size: 20px;
-    }
+@media (min-width: 983px) and (max-width: 1370px) {
+  .heading-h1-style {
+      font-size: 50px; /* Adjusted font size for screens between 769px and 1370px */
+  }
+  .heading-style {
+      font-size: 25px; /* Adjusted font size for screens between 769px and 1370px */
+  }
+}
+
+@media (min-width: 751px) and (max-width: 982px) {
+  .heading-h1-style {
+      font-size: 35px; /* Adjusted font size for screens up to 768px */
+  }
+  .heading-style {
+      font-size: 20px; /* Adjusted font size for screens up to 768px */
+  }
+}
+
+@media (max-width: 750px) {
+  .heading-h1-style {
+      font-size: 28px; /* Adjusted font size for screens up to 768px */
+  }
+  .heading-style {
+      font-size: 17px; /* Adjusted font size for screens up to 768px */
+  }
 }
   
   /* The typing effect */
