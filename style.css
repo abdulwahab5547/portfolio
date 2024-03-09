@@ -6,6 +6,7 @@
     font-size: 70px;
     color: #23294C;
     font-weight: 700;
+    display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
